@@ -36,7 +36,7 @@ This section demonstrates the application of transfer learning using EQpolarity 
 ---
 
 ## Gallery
-Here are examples of the outputs produced by the workflow:
+Here are examples of the outputs:
 
 ### Accuracy on Microseismic Events（ToC2ME）
 - Accuracy for each model can be obtained from [Code_ToC2ME/EQpolarity_Transfer_Learning/CCT_ToC2ME_TransferLearning_20240926_For_Test_update20241013.ipynb](https://github.com/chenyk1990/jiachenToc2Me/blob/main/Code_ToC2ME/EQpolarity_Transfer_Learning/CCT_ToC2ME_TransferLearning_20240926_For_Test_update20241013.ipynb)
