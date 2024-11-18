@@ -2,22 +2,20 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Nov 13 16:51:38 2024
-
 @author: jiachenhu
 """
-
 import os
 import pandas as pd
 
-# 输入和输出文件夹路径
+# Input and output folder paths
 input_dir = "./result_ToC2ME_pol_hash_auto"
 output_file = "./SKHASH/SKHASH/ToC2ME_demo/IN/SKHASH.pol.csv"
 
-# 初始化一个空列表来存储数据
+# Initialize an empty list to store data
 data = []
-event_id = 1  # 初始事件ID
+event_id = 1  # Initialize event ID counter
 
-# 遍历目录中的每个 .pol.hash 文件
+# Loop through each .pol.hash file in the directory
 for filename in os.listdir(input_dir):
     if filename.endswith(".pol.hash"):
         file_path = os.path.join(input_dir, filename)
@@ -25,19 +23,19 @@ for filename in os.listdir(input_dir):
         with open(file_path, 'r') as file:
             lines = file.readlines()
             
-            # 解析第一行的事件信息
-            evid = filename.split('.')[0]  # 获取文件名中的事件ID
+            # Parse event information from first line
+            evid = filename.split('.')[0]  # Get event ID from filename
             
-            # 从第二行开始获取台站信息
+            # Get station information starting from second line
             for line in lines[1:]:
                 parts = line.split()
-                station_id = parts[0]  # 台站ID
-                polarity = parts[1]    # 极性（+ 或 -）
+                station_id = parts[0]  # Station ID
+                polarity = parts[1]    # Polarity (+ or -)
                 
-                # 设置p_polarity值
+                # Set p_polarity value
                 p_polarity = 1 if polarity == '+' else -1
                 
-                # 创建输出的字典
+                # Create output dictionary
                 event_data = {
                     "event_id": event_id,
                     "station": station_id,
@@ -47,11 +45,10 @@ for filename in os.listdir(input_dir):
                     "p_polarity": p_polarity
                 }
                 
-                data.append(event_data)  # 添加事件数据
-            event_id += 1  # 每个事件递增ID
+                data.append(event_data)  # Add event data
+            event_id += 1  # Increment event ID for each event
 
-# 创建DataFrame并保存为CSV文件
+# Create DataFrame and save to CSV file
 df = pd.DataFrame(data)
 df.to_csv(output_file, index=False)
-
-print("数据已成功写入CSV文件。")
+print("Data has been successfully written to CSV file.")
