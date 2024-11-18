@@ -1,5 +1,5 @@
 # JiachenToc2Me
-**JiachenToc2Me** is Jiachen Hu's code repository for polarity picking and focal mechanism analysis in Canada.
+**JiachenToc2Me** is Jiachen Hu's code repository for polarity picking and focal mechanism analyses in Canada.
 
 ## Overview
 This repository provides a comprehensive set of tools and workflows for working with the ToC2Me dataset. The main components of this repository are:
