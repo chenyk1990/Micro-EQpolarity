@@ -2,26 +2,26 @@
 **JiachenToc2Me** is Jiachen Hu's code repository for polarity picking and focal mechanism analysis in Canada.
 
 ## Overview
-This repository provides a comprehensive workflow for classifying focal mechanism types, conducting independent testing, plotting waveforms on focal mechanisms, and applying EQpolarity with models and data, all using the ToC2ME dataset.
+This repository provides a comprehensive set of tools and workflows for working with the ToC2Me dataset. The main components of this repository are:
 
-## 1. Classify Focal Mechanism Types
+## 1. HASH Workflow
 
 ### Description
-This section provides the workflow for classifying focal mechanisms using the ToC2ME dataset after independent testing. It includes scripts to divide data into regions, filter based on event quality, and visualize focal mechanisms. Additionally, it supports 3D visualizations of seismic event distributions.
+This section outlines the process for solving focal mechanisms using the SKHASH on the ToC2Me dataset. Users can choose to either manually pick polarities or utilize the EQpolarity model for automatic polarity picking.
 
 ---
 
-## 2. Independent Testing
+## 2. Focal Mechanisms Analyses
 
 ### Description
-This section provides the workflow for conducting independent testing of the ToC2ME dataset. The testing workflow ensures that the models we apply are reliable, with approximately 7000 events resolved by EQpolarity.
+This section includes a set of scripts that allow users to visualize the spatial distribution of the focal mechanisms as well as their strike, dip, and rake characteristics within the ToC2Me dataset.
 
 ---
 
 ## 3. Plot Waveforms on Focal Mechanisms
 
 ### Description
-This section provides scripts to plot waveforms on focal mechanism beachball diagrams. Using the classified focal mechanism types, this tool helps visualize waveforms and station locations to validate the correctness of the mechanism solutions. 
+This component provides scripts that enable users to plot waveforms directly on focal mechanism beachball diagrams. This feature helps validate the correctness of the mechanism solutions by allowing users to check waveforms and station locations.
 
 ### Notes:
 - In the ToC2ME dataset, waveform polarities are inverted.
@@ -31,7 +31,7 @@ This section provides scripts to plot waveforms on focal mechanism beachball dia
 ## 4. EQpolarity Transfer Learning
 
 ### Description
-This section shows the application of transfer learning using EQpolarity models on the ToC2ME dataset. You can review the confusion matrices for the different models we trained to see how well they perform.
+This section demonstrates the application of transfer learning using EQpolarity models on the ToC2Me dataset.
 
 ---
 
