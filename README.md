@@ -39,7 +39,7 @@ This section demonstrates the application of transfer learning using EQpolarity 
 Here are examples of the outputs produced by the workflow:
 
 ### Accuracy on Microseismic Events（ToC2ME）
-- Accuracy for each model can be obtained from [Code_ToC2ME/EQpolarity_Transfer_learning/CCT_ToC2ME_TransferLearning_20240926_For_Test.ipynb](https://github.com/chenyk1990/jiachenToc2Me/blob/main/Code_ToC2ME/EQpolarity_Transfer_learning/CCT_ToC2ME_TransferLearning_20240926_For_Test.ipynb)
+- Accuracy for each model can be obtained from [Code_ToC2ME/EQpolarity_Transfer_Learning/CCT_ToC2ME_TransferLearning_20240926_For_Test_update20241013.ipynb](https://github.com/chenyk1990/jiachenToc2Me/blob/main/Code_ToC2ME/EQpolarity_Transfer_Learning/CCT_ToC2ME_TransferLearning_20240926_For_Test_update20241013.ipynb)
 
 #### The models are as follows
 - Blue: [model/SCSN/best_weigths_Binary_SCSN_Best.h5](https://github.com/chenyk1990/jiachenToc2Me/blob/main/model/SCSN/best_weigths_Binary_SCSN_Best.h5)
