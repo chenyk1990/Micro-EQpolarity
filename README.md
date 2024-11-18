@@ -7,7 +7,7 @@ This repository provides a comprehensive set of tools and workflows for working 
 ## 1. HASH Workflow
 
 ### Description
-This section outlines the process for solving focal mechanisms using the SKHASH on the ToC2Me dataset. Users can choose to either manually pick polarities or utilize the EQpolarity model for automatic polarity picking.
+This section includes the process for solving focal mechanisms using the SKHASH on the ToC2Me dataset. Users can choose to either manually pick polarities or utilize the EQpolarity model for automatic polarity picking.
 
 ---
 
