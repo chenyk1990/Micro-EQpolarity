@@ -1,0 +1,14 @@
+clear; clc; close all;
+str=281.3;
+dip=85.2;
+rake=-74.9;
+a=2;
+n=500;
+x0=0;
+y0=0;
+lat=0;
+lon=0;
+iptb=1;
+insew=1;
+fillcode=1;
+beachball_ea(str,dip,rake,a,n,'r',lat,lon,iptb,insew,fillcode);

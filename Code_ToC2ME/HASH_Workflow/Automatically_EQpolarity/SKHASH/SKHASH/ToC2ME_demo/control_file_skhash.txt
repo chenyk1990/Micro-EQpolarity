@@ -1,0 +1,61 @@
+## Control file example for SKHASH smile
+
+$catfile       # earthquake catalog filepath
+ToC2ME_demo/IN/SKHASH.eq_catalog.csv
+
+$stfile        # station list filepath
+ToC2ME_demo/IN/SKHASH.stations.csv
+
+$fpfile        # P-polarity input filepath
+ToC2ME_demo/IN/SKHASH.pol.csv
+
+#$ampfile       # amplitude input filepath
+#examples/20161127231138.800/IN/20161127231138.800.amp.csv
+
+$outfile1      # focal mechanisms output filepath
+ToC2ME_demo/OUT/out.csv
+
+$outfile_pol_agree  # record of polarity (dis)agreeement output filepath
+ToC2ME_demo/OUT/out_polagree.csv
+
+$outfile_sp_agree
+ToC2ME_demo/OUT/out_spagree.csv
+
+$outfile_pol_info
+ToC2ME_demo/OUT/out_polinfo.csv
+
+$outfolder_plots
+ToC2ME_demo/OUT
+
+$vmodel_paths  # whitespace/newline delimited list of paths to the velocity models
+ToC2ME_demo/vz.north
+
+$npolmin       # mininum number of polarity data (e.g., 8)
+8
+
+$min_polarity_weight  # Any polarities with a abs(weight) < min_polarity_weight will be ignored
+0.1
+
+$nmc           # number of trials (e.g., 30)
+30
+
+$maxout        # max num of acceptable focal mech. outputs (e.g., 500)
+500
+
+$ratmin        # minimum allowed signal to noise ratio
+3
+
+$badfrac       # fraction polarities assumed bad
+0.01
+
+$qbadfrac      # assumed noise in amplitude ratios, log10 (e.g. 0.3 for a factor of 2)
+0.3
+
+$delmax        # maximum allowed source-receiver distance in km.
+120
+
+$prob_max      # probability threshold for multiples (e.g., 0.1)
+0.9
+
+$max_agap
+40

@@ -1,0 +1,2 @@
+time, latitude, longitude, depth, horz_uncert_km, vert_uncert_km, mag, event_id
+2016-11-04 06:48:24.68, 54.347328, -117.239845,   3.20, 0.0, 0.0,-0.9,1

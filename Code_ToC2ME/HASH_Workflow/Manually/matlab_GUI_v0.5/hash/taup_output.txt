@@ -1,0 +1,7 @@
+
+Model: myvelocity
+Distance   Depth   Phase   Travel    Ray Param  Takeoff  Incident  Purist    Purist
+  (deg)     (km)   Name    Time (s)  p (s/deg)   (deg)    (deg)   Distance   Name 
+-----------------------------------------------------------------------------------
+    0.03     1.9   p          0.66    16.201    109.24    35.55     0.03   = p    
+
