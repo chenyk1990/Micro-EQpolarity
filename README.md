@@ -21,7 +21,7 @@ This section includes a set of scripts that allow users to visualize the spatial
 ## 3. Plot Waveforms on Focal Mechanisms
 
 ### Description
-This component provides scripts that enable users to plot waveforms directly on focal mechanism beachball diagrams. This feature helps validate the correctness of the mechanism solutions by allowing users to check waveforms and station locations.
+This component provides scripts that enable users to plot waveforms directly with focal mechanism beachball diagrams. This feature helps validate the correctness of the mechanism solutions by allowing users to check waveforms and station locations.
 
 ### Notes:
 - In the ToC2ME dataset, waveform polarities are inverted.
