@@ -26,7 +26,7 @@ Run `generate_pol_hash_for_independent_test.m` to generate the `.pol.hash` file.
 
 ### Step 5
 
-Run `Reverse_pol_hash_polarity.py` to reverse the polarity due to the instrument settings.
+If for ToC2ME dataset, run `Reverse_pol_hash_polarity.py` to reverse the polarity due to the instrument settings.
 
 ### Step 6
 
