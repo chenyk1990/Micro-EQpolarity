@@ -1,32 +1,42 @@
-### MATLAB Waveform Picking Steps Summary
+# MATLAB Waveform Polarity Picking Guide
 
-1. **Run `polarity_picking.m`**
-   - Open the script and run it to enter the main interface.
+## Overview
+This guide explains the process of picking P-wave polarities using the provided MATLAB script.
 
-2. **Load Data**
-   - Click the **Load data** button to load the required waveform data.
+## Step-by-Step Instructions
 
-3. **Mark P-wave Arrival**
-   - Click **Mark P arrival**, and a red line will appear in the interface.
+### 1. Script Initialization
+- Run `polarity_picking.m`
+- The main interface will appear
 
-4. **Adjust View**
-   - Based on the red line position, input `t0` and `t1` to zoom in on the waveform near the red line.
-   - Click **Set xlim** to set the x-axis range.
+### 2. Load Data
+- Click the **Load data** button
+- Select your waveform data file
 
-5. **Determine Waveform Polarity**
-   - Observe the **vertical** plot (the top waveform plot) and determine if the waveform to the right of the red line dips downward:
-     - If downward, click **Down**.
-     - If upward, click **Up**.
-     - Click **Next** to move to the next point.
+### 3. P-wave Arrival Marking
+- Click **Mark P arrival**
+- A red reference line will appear in the interface
 
-6. **Complete Polarity Picking for All Stations**
-   - For each station, determine the waveform polarity (`Up` or `Down`).
-   - Once all stations are processed, click **Finish** to complete.
+### 4. View Adjustment
+- Locate the red line position
+- Input values:
+  - `t0`: start time
+  - `t1`: end time
+- Click **Set xlim** to adjust the x-axis range
 
----
+### 5. Polarity Determination
+- Focus on the **vertical** plot (top waveform)
+- Observe waveform direction after the red line:
+  - Click **Down** if waveform dips downward
+  - Click **Up** if waveform points upward
+- Click **Next** to proceed to the next point
 
-### Output Results
-- Results are saved in the `./OUT` folder.
+### 6. Complete the Process
+- Repeat polarity picking for all stations
+  - Mark each as either `Up` or `Down`
+- Click **Finish** when all stations are processed
 
-- You can use these output to run SKHASH. See ../Automatically_EQpolarity folder README.md.
-
+## Output Information
+- Results are automatically saved to the `./OUT` folder
+- Output files are compatible with SKHASH
+- For additional processing, refer to `../Automatically_EQpolarity/README.md`
