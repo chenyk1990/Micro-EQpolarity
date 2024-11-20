@@ -73,7 +73,7 @@ Here are examples of the outputs:
 ---
 
 ## Data
-1. ToC2ME data: https://doi.org/10.5281/zenodo.13902345
+1. ToC2ME data: https://doi.org/10.5281/zenodo.14185578
 
 2. Texas data: Google Drive link: https://drive.google.com/drive/folders/1WXVB8ytNB4bOaZ97oq6OmMRyAEg95trp?usp=sharing
 
